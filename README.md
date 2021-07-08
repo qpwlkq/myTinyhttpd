@@ -3,8 +3,8 @@
 
 1999年写的代码, 20年过去了, 依然热度不减, 麻雀虽小, 五脏俱全.  
 
-#### 0 error && 0 warning 运行
-##### bug更改
+### 0 error && 0 warning 运行
+##### 1. bug更改
 源码放在今天有几个bug:
 ```
 1、声明函数修改如下
@@ -24,7 +24,7 @@ socklen_t client_name_len = sizeof(client_name);
 //if (pthread_create(&newthread , NULL, accept_request, client_sock) != 0)
 if (pthread_create(&newthread , NULL, accept_request, (void *)&client_sock) != 0)
 ```
-##### pthread库安装
+##### 2. pthread库安装
 ```
 sudo apt-get install glibc-doc
 sudo apt-get install manpages-posix-dev
@@ -34,11 +34,11 @@ find / -name libpthread.so
 编译 -> Compiler -> Linker setting -> Add
 然后将find找到的位置复制粘贴一下, 确认即可.
 
-#### 现有功能说明
+### 现有功能说明
 1. 仅支持GET和POST
 2. 仅支持Http1.0和Http1.x
 
-#### 改进目标
+### 改进目标
 0. 理清逻辑
 1. 修改逻辑bug
 2. 支持更多请求方法
