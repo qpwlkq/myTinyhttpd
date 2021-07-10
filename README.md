@@ -3,8 +3,8 @@
 
 1999年写的代码, 20年过去了, 依然热度不减, 麻雀虽小, 五脏俱全.  
 
-如果你刚入门socket编程, 请先看:  
-[Linux下的socket编程系列](https://qpwlkq.github.io/categories/Linux%E4%B8%8B%E7%9A%84Socket%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/)  
+**如果你想要入门socket编程**  
+请先看:  [Linux下的socket编程系列](https://qpwlkq.github.io/categories/Linux%E4%B8%8B%E7%9A%84Socket%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/)  
 Socket编程-1-socket基本知识  
 Socket编程-2-实现一个超简单web服务器程序1.0  
 Socket编程-3-相关函数/定义详解  
