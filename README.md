@@ -1,5 +1,5 @@
 # myTinyhttpd
-超轻量级http服务器Tinyhttpd的学习&amp;改造
+超轻量级http服务器Tinyhttpd的学习
 
 1999年写的代码, 20年过去了, 依然热度不减, 麻雀虽小, 五脏俱全.  
 
@@ -51,6 +51,7 @@ find / -name libpthread.so
 
 ### 改进目标
 0. 理清逻辑
-1. 修改逻辑bug
-2. 支持更多请求方法
-3. 增加Http 更多版本的支持
+1. 支持更多请求方法和http版本
+
+### 逻辑
+没有并发能力, 通过socket接受http报文, 一次请求, 一次处理.
