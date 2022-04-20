@@ -1,7 +1,7 @@
 # myTinyhttpd
-超轻量级http服务器Tinyhttpd的学习
+超轻量级http服务器Tinyhttpd
 
-1999年写的代码, 20年过去了, 依然热度不减, 麻雀虽小, 五脏俱全.  
+麻雀虽小, 五脏俱全.  
 
 **如果你想要入门socket编程**  
 请先看:  [Linux下的socket编程系列](https://qpwlkq.github.io/categories/Linux%E4%B8%8B%E7%9A%84Socket%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/)  
