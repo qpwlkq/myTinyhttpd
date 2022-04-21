@@ -5,3 +5,4 @@ httpd: httpd.c
 
 clean:
 	rm httpd
+
