@@ -54,4 +54,4 @@ find / -name libpthread.so
 1. 支持更多请求方法和http版本
 
 ### 逻辑
-没有并发能力, 通过socket接受http报文, 一次请求, 一次处理.
+通过socket接受http报文, 一次请求, 一次处理.
