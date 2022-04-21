@@ -12,6 +12,7 @@
   *  4) Uncomment the line that runs accept_request().
   *  5) Remove -lsocket from the Makefile.
   */
+
 #include <stdio.h>      //输入输出
 #include <ctype.h>      //字符处理
 #include <string.h>     //字符串相关函数
